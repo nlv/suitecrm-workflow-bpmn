@@ -1,25 +1,25 @@
 <?php
 
 $manifest = array (
-  'name' => 'Workflow-BPMN',
+  'name' => 'Workflow-BPMN-nlv',
   'acceptable_sugar_versions' => array (),
   'acceptable_sugar_flavors' => array('CE','PRO','ENT'),
   'author' => 'hardsoft321.ru, idv',
-  'description' => 'Диаграммы для Workflow-WF',
+  'description' => 'Диаграммы для Workflow-WF (nlv)',
   'is_uninstallable' => true,
-  'published_date' => '2015-08-17',
+  'published_date' => '2020-07-09',
   'type' => 'module',
   'version' => '1.1.1',
   'dependencies' => array(
     array(
-        'id_name' => 'Workflow-WF',
+        'id_name' => 'Workflow-WF-nlv',
         'version' => '0'
     ),
   ),
 );
 
 $installdefs = array (
-    'id' => 'Workflow-BPMN',
+    'id' => 'Workflow-BPMN-nlv',
     'copy' => array (
       array(
           'from' => '<basepath>/source/copy',
