@@ -33,6 +33,11 @@ $installdefs = array (
             'language' => 'ru_ru',
         ),
         array (
+            'from' => '<basepath>/source/language/ru_RU.workflows_bpmn.php',
+            'to_module' => 'WFWorkflows',
+            'language' => 'ru_RU',
+        ),
+        array (
             'from' => '<basepath>/source/language/en_us.workflows_bpmn.php',
             'to_module' => 'WFWorkflows',
             'language' => 'en_us',
