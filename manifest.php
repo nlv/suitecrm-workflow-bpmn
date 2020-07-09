@@ -9,7 +9,7 @@ $manifest = array (
   'is_uninstallable' => true,
   'published_date' => '2020-07-09',
   'type' => 'module',
-  'version' => '1.1.1',
+  'version' => '1.2.0',
   'dependencies' => array(
     array(
         'id_name' => 'Workflow-WF-nlv',
